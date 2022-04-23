@@ -1,0 +1,25 @@
+<br><br>
+<h1 class="text-center text-primary">Login</h1><br>
+<div class="row">
+<div class="col-md-4">
+</div>
+<div class="col-md-4 col-md-offset-5">
+<div class="jumbotron">
+<form [formGroup]="angForm" (ngSubmit)="postdata(angForm)" autocomplete="off" >
+<div class="form-group">
+<label for="email"><b>Email</b></label>
+<input type="email" name="email" formControlName="email" autocomplete="off" class="form-control input-sm" placeholder="Email">
+</div><br>
+<div class="form-group">
+<label for="Password"><b>Password</b></label>
+<input type="password" name="Password" formControlName="password" autocomplete="off" class="form-control input-sm" placeholder="Password">
+</div><br>
+<div style="text-align: center;">
+<button type="submit" class="btn btn-primary" >Login</button>
+</div>
+</form>
+</div>
+</div>
+<div class="col-md-5">
+</div>
+</div>

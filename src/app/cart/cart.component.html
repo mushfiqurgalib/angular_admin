@@ -1,0 +1,30 @@
+
+<div class="mt-2 container">
+    <table class="table">
+      <thead>
+        <tr>
+          <!-- <th scope="col">Name</th>
+          <th scope="col">Ram</th>
+          <th scope="col">SSD</th>
+          <th scope="col">Price</th> -->
+        
+        </tr>
+      </thead>
+      <tbody style=" border: 1px 1px 1px 1px ;">
+        <tr  style="text-align: center;" *ngFor="let laptop of alllaptops; let i = index">
+          <div style="text-align: center;"  ><img  src="{{laptop.imag}}" >
+          
+          <div><td> {{laptop.name}}</td></div>
+          <td>{{laptop.ram}}</td>
+          <td>{{laptop.ssd}}</td>
+          
+          <td>{{laptop.price}}</td>
+          
+          
+          
+           </div>
+          
+        </tr>
+      </tbody>
+    </table>
+</div>
