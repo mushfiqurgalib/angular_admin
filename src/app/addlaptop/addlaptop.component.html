@@ -9,23 +9,23 @@
 <form [formGroup]="ang1Form" (ngSubmit)="postdata(ang1Form)" autocomplete="off" enctype="multipart/form-data" >
 <div class="form-group" style="padding:10px">
 <label for="name"><b>Name</b></label>
-<input type="text" name="lname" formControlName="lname" autocomplete="off" [(ngModel)]="newlaptop.name" class="form-control input-sm" placeholder="Enter Fullname">
+<input type="text" name="lname" formControlName="lname" autocomplete="off" [(ngModel)]="newlaptop.name" class="form-control input-sm" placeholder="Enter Laptop name">
 </div>
 <div class="form-group" style="padding:10px">
 <label for="email"><b>ram</b></label>
-<input type="text" name="ram" formControlName="ram" autocomplete="off" [(ngModel)]="newlaptop.ram" class="form-control input-sm" placeholder="Enter Email">
+<input type="text" name="ram" formControlName="ram" autocomplete="off" [(ngModel)]="newlaptop.ram" class="form-control input-sm" placeholder="Enter Ram name">
 </div>
 <div class="form-group" style="padding:10px">
 <label for="Password"><b>ssd</b></label>
-<input type="text" name="ssd" formControlName="ssd" autocomplete="off" [(ngModel)]="newlaptop.ssd" class="form-control input-sm" placeholder="Enter Password">
+<input type="text" name="ssd" formControlName="ssd" autocomplete="off" [(ngModel)]="newlaptop.ssd" class="form-control input-sm" placeholder="Enter ssd name">
 </div><br>
 
 <div class="form-group" style="padding:10px">
   <label for="imag"><b>image</b></label>
-  <input  type="file" name="imag" formControlName="imag" autocomplete="off" [(ngModel)]="newlaptop.imag" class="form-control input-sm"  placeholder="Enter Password">
+  <input  type="file" name="imag" formControlName="imag" autocomplete="off" [(ngModel)]="newlaptop.imag" class="form-control input-sm"  placeholder="Enter image">
   </div><br>
 <div style="text-align:center">
-<button type="submit" (click)="addlaptop()" class="btn btn-success" >Register</button>
+<button type="submit"  class="btn btn-success" >Register</button>
 </div>
 </form>
 </div>

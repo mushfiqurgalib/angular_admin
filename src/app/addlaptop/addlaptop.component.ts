@@ -32,11 +32,11 @@ imag:['']
 
 ngOnInit() {
 }
-addlaptop(): void {
-    console.log(this.newlaptop);
-    this.laptopservice.addlaptop(this.newlaptop);
-    this.router.navigate(['laptop']);
-  }
+// addlaptop(): void {
+//     console.log(this.newlaptop);
+//     this.laptopservice.addlaptop(this.newlaptop);
+//     this.router.navigate(['laptop']);
+//   }
 postdata(ang1Form: { value: { lname: any; ram: any; ssd: any; imag:any}; })
 {
 this.dataService.laptopregistration(ang1Form.value.lname,ang1Form.value.ram,ang1Form.value.ssd,ang1Form.value.imag)
