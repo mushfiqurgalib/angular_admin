@@ -11,11 +11,11 @@ styleUrls: ['./register.component.css']
 })
 
 export class RegisterComponent implements OnInit {
-angForm: FormGroup;
+angForm1: FormGroup;
 constructor(private fb: FormBuilder,private dataService: ApiService,private router:Router) {
-this.angForm = this.fb.group({
+this.angForm1 = this.fb.group({
 email: ['', [Validators.required,Validators.minLength(1), Validators.email]],
-password: ['', Validators.required],
+password: ['', Validators.required,Validators.minLength(6),Validators.maxLength(10)],
 name: ['', Validators.required],
 mobile: ['', Validators.required]
 });
@@ -34,10 +34,11 @@ this.router.navigate(['login']);
 },
 
 error => {
+    alert("Password too short or long")
 });
 }
 
-get email() { return this.angForm.get('email'); }
-get password() { return this.angForm.get('password'); }
-get name() { return this.angForm.get('name'); }
+get email() { return this.angForm1.get('email'); }
+get password() { return this.angForm1.get('password'); }
+get name() { return this.angForm1.get('name'); }
 }

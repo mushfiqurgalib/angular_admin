@@ -15,10 +15,10 @@ styleUrls: ['./addlaptop.component.css']
 export class AddlaptopComponent implements OnInit {
     newlaptop = new laptop();
 
-    selectedFile=null;
-    onFileSelected(event: any){
-       this.selectedFile=event.target.files(0)
-    }
+    // selectedFile=null;
+    // onFileSelected(event: any){
+    //    this.selectedFile=event.target.files(0)
+    // }
 ang1Form: FormGroup;
 constructor(private fb: FormBuilder,private dataService: ApiService,private router:Router,private laptopservice:LaptopService) {
 this.ang1Form = this.fb.group({

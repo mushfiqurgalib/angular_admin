@@ -7,7 +7,8 @@ $request = json_decode($postdata);
 $name = trim($request->name);
 $pwd = mysqli_real_escape_string($mysqli, trim($request->pwd));
 $email = mysqli_real_escape_string($mysqli, trim($request->email));
-$sql = "INSERT INTO laptop(name,password,email) VALUES ('$name','$pwd','$email')";
+if(strlen($pwd)>5 && strlen($pwd)<10 && strlen($name)>1 && strlen($email)>1){
+$sql = "INSERT INTO users(name,password,email) VALUES ('$name','$pwd','$email')";}
 if ($mysqli->query($sql) === TRUE) {
 $authdata = [
 'name' => $name,
@@ -16,6 +17,10 @@ $authdata = [
 'Id' => mysqli_insert_id($mysqli)
 ];
 echo json_encode($authdata);
+}
+else
+{
+    http_response_code(404);
 }
 }
 
