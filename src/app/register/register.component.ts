@@ -15,7 +15,7 @@ angForm1: FormGroup;
 constructor(private fb: FormBuilder,private dataService: ApiService,private router:Router) {
 this.angForm1 = this.fb.group({
 email: ['', [Validators.required,Validators.minLength(1), Validators.email]],
-password: ['', Validators.required,Validators.minLength(6),Validators.maxLength(10)],
+password: ['', Validators.required],
 name: ['', Validators.required],
 mobile: ['', Validators.required]
 });
@@ -34,7 +34,7 @@ this.router.navigate(['login']);
 },
 
 error => {
-    alert("Password too short or long")
+     alert("Password too short or long")
 });
 }
 
