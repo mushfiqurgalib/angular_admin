@@ -7,7 +7,7 @@ $request = json_decode($postdata);
 $name = trim($request->name);
 $pwd = mysqli_real_escape_string($mysqli, trim($request->pwd));
 $email = mysqli_real_escape_string($mysqli, trim($request->email));
-if(strlen($pwd)>5 && strlen($pwd)<10){
+if(strlen($pwd)>=6 && strlen($pwd)<=12 && preg_match('/@/',$email) && preg_match('/[A-Z]/',$pwd) && preg_match('/[0-9]/',$pwd) && preg_match('/[^\w]/',$pwd) ){
 $sql = "INSERT INTO users(name,password,email) VALUES ('$name','$pwd','$email')";}
 if ($mysqli->query($sql) === TRUE) {
 $authdata = [
