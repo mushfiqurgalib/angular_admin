@@ -1,0 +1,2373 @@
+{
+  "id": "e577af5c-0da7-43a5-9aac-616e2b1fc874",
+  "version": "2.0",
+  "name": "AuthAssignment",
+  "url": "http://localhost:4200/login",
+  "tests": [{
+    "id": "96c3e476-2921-4986-a429-61398b143b23",
+    "name": "regSuccess",
+    "commands": [{
+      "id": "71cafb75-de0f-4a33-8151-9e8e90ca5e29",
+      "comment": "",
+      "command": "open",
+      "target": "/registration",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a7edc0d5-0523-40e0-902b-88e33c3d9707",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1296x688",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "75c54090-f38c-4e75-9d52-f0b10b33f40b",
+      "comment": "",
+      "command": "click",
+      "target": "name=name",
+      "targets": [
+        ["name=name", "name"],
+        ["css=.form-group:nth-child(1) > .form-control", "css:finder"],
+        ["xpath=//input[@name='name']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2f3b8d2f-d37d-48d1-b4e6-faf4260dde90",
+      "comment": "",
+      "command": "type",
+      "target": "name=name",
+      "targets": [
+        ["name=name", "name"],
+        ["css=.ng-valid", "css:finder"],
+        ["xpath=//input[@name='name']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Ahmed Adnan"
+    }, {
+      "id": "9207e0e3-234f-4305-8fe5-d69d280f4a7c",
+      "comment": "",
+      "command": "click",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=.form-group:nth-child(2) > .form-control", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2ff1b685-2dde-4cf1-9fb7-bc9de6f8e156",
+      "comment": "",
+      "command": "type",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=.form-group:nth-child(2) > .form-control", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "bsse1131@gmail.com"
+    }, {
+      "id": "e3a48690-f808-45fc-8667-8f645242b933",
+      "comment": "",
+      "command": "click",
+      "target": "name=Password",
+      "targets": [
+        ["name=Password", "name"],
+        ["css=.ng-untouched", "css:finder"],
+        ["xpath=//input[@name='Password']", "xpath:attributes"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ff34d919-9117-450b-9371-885e6c571f95",
+      "comment": "",
+      "command": "type",
+      "target": "name=Password",
+      "targets": [
+        ["name=Password", "name"],
+        ["css=.ng-untouched", "css:finder"],
+        ["xpath=//input[@name='Password']", "xpath:attributes"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "adnan123"
+    }, {
+      "id": "5b8b8d00-d5f7-44dc-b592-81ae81d87c0f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[4]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Register')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1d9476bb-fa08-4f70-8704-75195cf11c62",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Registration",
+      "targets": [
+        ["linkText=Registration", "linkText"],
+        ["css=.nav-item:nth-child(4) > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Registration')]", "xpath:link"],
+        ["xpath=//div[@id='navbarsExample']/ul/li[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/registration')]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Registration')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "81375036-1ebc-4641-85a1-94f52a0ed30d",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Registration",
+      "targets": [
+        ["linkText=Registration", "linkText"],
+        ["css=.nav-item:nth-child(4) > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Registration')]", "xpath:link"],
+        ["xpath=//div[@id='navbarsExample']/ul/li[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/registration')]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Registration')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "feadb710-cbde-489b-be80-c852d48faddc",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=Registration",
+      "targets": [
+        ["linkText=Registration", "linkText"],
+        ["css=.active", "css:finder"],
+        ["xpath=//a[contains(text(),'Registration')]", "xpath:link"],
+        ["xpath=//div[@id='navbarsExample']/ul/li[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/registration')]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Registration')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ae9f2be9-2b12-4b2b-9528-4e42753d1841",
+      "comment": "",
+      "command": "click",
+      "target": "name=name",
+      "targets": [
+        ["name=name", "name"],
+        ["css=.form-group:nth-child(1) > .form-control", "css:finder"],
+        ["xpath=//input[@name='name']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "101e769a-d4de-4548-a20a-4284f186d3b1",
+      "comment": "",
+      "command": "type",
+      "target": "name=name",
+      "targets": [
+        ["name=name", "name"],
+        ["css=.ng-valid", "css:finder"],
+        ["xpath=//input[@name='name']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "adnan"
+    }, {
+      "id": "714e03bf-22bb-4036-9b16-65155135c7e6",
+      "comment": "",
+      "command": "click",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=.form-group:nth-child(2) > .form-control", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f9001aed-927e-44c9-9564-752d4cbb7136",
+      "comment": "",
+      "command": "type",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=.form-group:nth-child(2) > .form-control", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "bsse1131gmail.com"
+    }, {
+      "id": "7c62f198-96eb-446c-b02a-0e11aeaffe23",
+      "comment": "",
+      "command": "click",
+      "target": "name=Password",
+      "targets": [
+        ["name=Password", "name"],
+        ["css=.ng-untouched", "css:finder"],
+        ["xpath=//input[@name='Password']", "xpath:attributes"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "192784b2-b28f-4314-9f48-2ad2623987dd",
+      "comment": "",
+      "command": "type",
+      "target": "name=Password",
+      "targets": [
+        ["name=Password", "name"],
+        ["css=.ng-untouched", "css:finder"],
+        ["xpath=//input[@name='Password']", "xpath:attributes"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "123456"
+    }, {
+      "id": "a7768c08-13f1-482f-a2cf-c8bfefc23393",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[4]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Register')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "07e2db1d-8bab-4a95-b6aa-6c28624a4207",
+    "name": "registerEmailInvalid",
+    "commands": [{
+      "id": "500589ae-8887-46aa-8dd9-8e3880a1c7d3",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1296x688",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ff35b7c7-8e6a-48fc-b8cf-c4f22e96d9ac",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Registration",
+      "targets": [
+        ["linkText=Registration", "linkText"],
+        ["css=.nav-item:nth-child(4) > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Registration')]", "xpath:link"],
+        ["xpath=//div[@id='navbarsExample']/ul/li[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/registration')]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Registration')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c69296e2-10db-4f7d-906c-805342129e0a",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Registration",
+      "targets": [
+        ["linkText=Registration", "linkText"],
+        ["css=.nav-item:nth-child(4) > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Registration')]", "xpath:link"],
+        ["xpath=//div[@id='navbarsExample']/ul/li[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/registration')]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Registration')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c5e2c4a7-f5d8-4e7f-bdf0-316f369c6d0f",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=Registration",
+      "targets": [
+        ["linkText=Registration", "linkText"],
+        ["css=.active", "css:finder"],
+        ["xpath=//a[contains(text(),'Registration')]", "xpath:link"],
+        ["xpath=//div[@id='navbarsExample']/ul/li[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/registration')]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Registration')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "64c730fa-5561-4efd-af4b-7cdc86c2d0f0",
+      "comment": "",
+      "command": "click",
+      "target": "name=name",
+      "targets": [
+        ["name=name", "name"],
+        ["css=.form-group:nth-child(1) > .form-control", "css:finder"],
+        ["xpath=//input[@name='name']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "689e58ff-317d-4d87-8855-3cd1bb096b95",
+      "comment": "",
+      "command": "type",
+      "target": "name=name",
+      "targets": [
+        ["name=name", "name"],
+        ["css=.ng-valid", "css:finder"],
+        ["xpath=//input[@name='name']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Adnan"
+    }, {
+      "id": "c3b32d66-d5e4-47bd-83ef-ea6d75f351c5",
+      "comment": "",
+      "command": "click",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=.form-group:nth-child(2) > .form-control", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6e6d22e8-f026-46a1-9a43-2f4e5a0faea9",
+      "comment": "",
+      "command": "type",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=.form-group:nth-child(2) > .form-control", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "bsse1131gmail.com"
+    }, {
+      "id": "441bddc9-c00e-4ad4-a235-2e9ebc80011b",
+      "comment": "",
+      "command": "click",
+      "target": "name=Password",
+      "targets": [
+        ["name=Password", "name"],
+        ["css=.ng-untouched", "css:finder"],
+        ["xpath=//input[@name='Password']", "xpath:attributes"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4221ffc3-2785-4407-a969-01239a733bcd",
+      "comment": "",
+      "command": "type",
+      "target": "name=Password",
+      "targets": [
+        ["name=Password", "name"],
+        ["css=.ng-untouched", "css:finder"],
+        ["xpath=//input[@name='Password']", "xpath:attributes"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "123456"
+    }, {
+      "id": "0165fcc9-a6e2-4abd-a141-9395328c65b2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[4]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Register')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "73516825-dd84-4164-a092-1ba5c2739529",
+    "name": "regPassLower(-)Invalid",
+    "commands": [{
+      "id": "ea285e2f-90c5-4242-a5f2-80626d9d9a4e",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:4200/registration",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "22fef48b-59b8-4215-8b70-41f634093b2b",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x652",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "19965015-ee36-485c-a27f-1a002d9ef849",
+      "comment": "",
+      "command": "click",
+      "target": "name=name",
+      "targets": [
+        ["name=name", "name"],
+        ["css=.form-group:nth-child(1) > .form-control", "css:finder"],
+        ["xpath=//input[@name='name']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8ac0d995-d4a2-4e08-9f54-15d1e7a8f1df",
+      "comment": "",
+      "command": "type",
+      "target": "name=name",
+      "targets": [
+        ["name=name", "name"],
+        ["css=.ng-valid", "css:finder"],
+        ["xpath=//input[@name='name']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Adnan"
+    }, {
+      "id": "2718be4f-590b-4d9a-9dc0-92f27b6c3c02",
+      "comment": "",
+      "command": "click",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=.form-group:nth-child(2) > .form-control", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "db78b714-cc1a-49b3-a56f-4fb06474b3ec",
+      "comment": "",
+      "command": "type",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=.form-group:nth-child(2) > .form-control", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "bsse1131@gmail.com"
+    }, {
+      "id": "d012a537-4dea-4746-8717-ed90c0c60254",
+      "comment": "",
+      "command": "click",
+      "target": "name=Password",
+      "targets": [
+        ["name=Password", "name"],
+        ["css=.ng-untouched", "css:finder"],
+        ["xpath=//input[@name='Password']", "xpath:attributes"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "97bcdebe-773a-4a4f-b81e-bb7ae5f6a46b",
+      "comment": "",
+      "command": "type",
+      "target": "name=Password",
+      "targets": [
+        ["name=Password", "name"],
+        ["css=.ng-untouched", "css:finder"],
+        ["xpath=//input[@name='Password']", "xpath:attributes"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "123"
+    }, {
+      "id": "f2950dc0-2461-42d4-b6d7-ed9dec7a4951",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[4]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Register')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0e1a0798-2030-454a-b89d-adee8310c172",
+      "comment": "",
+      "command": "click",
+      "target": "css=h3",
+      "targets": [
+        ["css=h3", "css:finder"],
+        ["xpath=//h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'Invalid Email or Password')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "aec8b71a-3c94-462c-adc5-dd75b4ccf3bc",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=h3",
+      "targets": [
+        ["css=h3", "css:finder"],
+        ["xpath=//h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'Invalid Email or Password')]", "xpath:innerText"]
+      ],
+      "value": "Invalid Email or Password"
+    }]
+  }, {
+    "id": "469d5914-b7c0-4621-9d52-28da23fd1bf9",
+    "name": "regPassInvalid",
+    "commands": [{
+      "id": "b4219186-d261-47b3-b019-969e32183301",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:4200/registration",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "aa3bfd7f-f25f-48ed-91a5-74e1374e24f6",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x652",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "05a4673e-b152-44f5-9968-bd3afd7fb131",
+      "comment": "",
+      "command": "click",
+      "target": "name=name",
+      "targets": [
+        ["name=name", "name"],
+        ["css=.form-group:nth-child(1) > .form-control", "css:finder"],
+        ["xpath=//input[@name='name']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c756c185-c2b1-46dc-bef3-ce1763fa17df",
+      "comment": "",
+      "command": "type",
+      "target": "name=name",
+      "targets": [
+        ["name=name", "name"],
+        ["css=.ng-valid", "css:finder"],
+        ["xpath=//input[@name='name']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Adnan"
+    }, {
+      "id": "2fa6d0c5-6843-43d8-a113-abd92ea5e86e",
+      "comment": "",
+      "command": "click",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=.form-group:nth-child(2) > .form-control", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "550caf92-4ebd-4314-9ff6-2f79b17d082a",
+      "comment": "",
+      "command": "type",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=.form-group:nth-child(2) > .form-control", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "bsse1131@gmail.com"
+    }, {
+      "id": "663e0aee-621a-4412-9fe6-c7e9eada6ad7",
+      "comment": "",
+      "command": "click",
+      "target": "name=Password",
+      "targets": [
+        ["name=Password", "name"],
+        ["css=.ng-untouched", "css:finder"],
+        ["xpath=//input[@name='Password']", "xpath:attributes"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fb164bd4-16a6-4265-bcb1-3b92e89bfe43",
+      "comment": "",
+      "command": "type",
+      "target": "name=Password",
+      "targets": [
+        ["name=Password", "name"],
+        ["css=.ng-untouched", "css:finder"],
+        ["xpath=//input[@name='Password']", "xpath:attributes"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "123"
+    }, {
+      "id": "78265392-258b-4674-a4ae-09077594ddc8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[4]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Register')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0569222a-54f3-4c7f-b4ae-e9e8dbdb5781",
+      "comment": "",
+      "command": "click",
+      "target": "css=.row",
+      "targets": [
+        ["css=.row", "css:finder"],
+        ["xpath=//div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9186d35b-c0ab-40d4-a28e-488cd09543d7",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=h3",
+      "targets": [
+        ["css=h3", "css:finder"],
+        ["xpath=//h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'Invalid Email or Password')]", "xpath:innerText"]
+      ],
+      "value": "Invalid Email or Password"
+    }]
+  }, {
+    "id": "2b259c82-d35d-44e3-acd0-ac022a82913e",
+    "name": "regValid",
+    "commands": [{
+      "id": "45492ce8-391b-4ff9-a24f-720a0b68b409",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:4200/registration",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ce3718b1-4943-456a-8d91-0351ee857e9d",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x652",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3343be44-958d-45d8-829a-9c059bc4c389",
+      "comment": "",
+      "command": "click",
+      "target": "name=name",
+      "targets": [
+        ["name=name", "name"],
+        ["css=.form-group:nth-child(1) > .form-control", "css:finder"],
+        ["xpath=//input[@name='name']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e75ba8f3-2e88-446e-8c28-7926fd2f4658",
+      "comment": "",
+      "command": "type",
+      "target": "name=name",
+      "targets": [
+        ["name=name", "name"],
+        ["css=.ng-valid", "css:finder"],
+        ["xpath=//input[@name='name']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Ahmed Adnan"
+    }, {
+      "id": "a6343be2-807e-41ed-a06c-95bae54e3cd4",
+      "comment": "",
+      "command": "click",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=.form-group:nth-child(2) > .form-control", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "881ac573-2eb2-444c-bc05-3593d43f5114",
+      "comment": "",
+      "command": "type",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=.form-group:nth-child(2) > .form-control", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "bsse1131@gmail.com"
+    }, {
+      "id": "babc3981-931e-444a-9b32-5d970d78d172",
+      "comment": "",
+      "command": "click",
+      "target": "name=Password",
+      "targets": [
+        ["name=Password", "name"],
+        ["css=.ng-untouched", "css:finder"],
+        ["xpath=//input[@name='Password']", "xpath:attributes"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "265bd46e-e547-42f8-a594-a939806d3ba1",
+      "comment": "",
+      "command": "type",
+      "target": "name=Password",
+      "targets": [
+        ["name=Password", "name"],
+        ["css=.ng-untouched", "css:finder"],
+        ["xpath=//input[@name='Password']", "xpath:attributes"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "Adnan123$"
+    }, {
+      "id": "74807d22-0f70-4bd9-96d4-d1df434e11f6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[4]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Register')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "5913d4a7-5360-459e-89ad-af31b10edfff",
+    "name": "passLower(+)Valid",
+    "commands": [{
+      "id": "3fb74031-425d-4c2e-a2e7-296ab195142b",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:4200/registration",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e47645f9-4a1f-4684-b671-594485a8f16e",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x652",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3e95a017-1084-4ea5-af06-9cfc19ef94e1",
+      "comment": "",
+      "command": "click",
+      "target": "name=name",
+      "targets": [
+        ["name=name", "name"],
+        ["css=.form-group:nth-child(1) > .form-control", "css:finder"],
+        ["xpath=//input[@name='name']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b77feaf0-fc0e-4e9a-a112-9f1c40952522",
+      "comment": "",
+      "command": "type",
+      "target": "name=name",
+      "targets": [
+        ["name=name", "name"],
+        ["css=.ng-valid", "css:finder"],
+        ["xpath=//input[@name='name']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Adnan"
+    }, {
+      "id": "83d1c090-6058-4af6-8f79-4fed798c985f",
+      "comment": "",
+      "command": "click",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=.form-group:nth-child(2) > .form-control", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c0dbaf41-f6b0-46e9-8db3-6fcb0efcc93d",
+      "comment": "",
+      "command": "type",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=.form-group:nth-child(2) > .form-control", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "adnan@gmail.com"
+    }, {
+      "id": "44d0cf32-7f42-4e94-87ae-768994242875",
+      "comment": "",
+      "command": "click",
+      "target": "name=Password",
+      "targets": [
+        ["name=Password", "name"],
+        ["css=.ng-untouched", "css:finder"],
+        ["xpath=//input[@name='Password']", "xpath:attributes"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "81ced1cd-fdab-4ec0-813d-931a3f9b4507",
+      "comment": "",
+      "command": "type",
+      "target": "name=Password",
+      "targets": [
+        ["name=Password", "name"],
+        ["css=.ng-untouched", "css:finder"],
+        ["xpath=//input[@name='Password']", "xpath:attributes"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "Adnan@1"
+    }, {
+      "id": "4d3493dd-c1d3-4a18-9ec0-f0012a0273ce",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[4]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Register')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "71de1bd9-7388-4581-8d22-f165c8f0584d",
+    "name": "regEmailInvalid",
+    "commands": [{
+      "id": "7049dea2-34ef-484f-95a4-3cef6f8fd930",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:4200/registration",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5f6b6e63-1d29-4741-8606-e5444e6cefa6",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x652",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4c34bcc2-3c91-42ae-9c3a-df49d3062a6a",
+      "comment": "",
+      "command": "click",
+      "target": "name=name",
+      "targets": [
+        ["name=name", "name"],
+        ["css=.form-group:nth-child(1) > .form-control", "css:finder"],
+        ["xpath=//input[@name='name']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ba00d481-4407-4880-aecf-afbfdafc7848",
+      "comment": "",
+      "command": "type",
+      "target": "name=name",
+      "targets": [
+        ["name=name", "name"],
+        ["css=.ng-valid", "css:finder"],
+        ["xpath=//input[@name='name']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Adnan"
+    }, {
+      "id": "64d7be27-d97c-494e-bbec-45d219a077fa",
+      "comment": "",
+      "command": "click",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=.form-group:nth-child(2) > .form-control", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ca1fbe34-351b-44d5-973d-674858635d94",
+      "comment": "",
+      "command": "type",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=.form-group:nth-child(2) > .form-control", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "bsse1131gmail.com"
+    }, {
+      "id": "9a3d725c-f41b-4cef-9299-66d395a9a19a",
+      "comment": "",
+      "command": "click",
+      "target": "name=Password",
+      "targets": [
+        ["name=Password", "name"],
+        ["css=.ng-untouched", "css:finder"],
+        ["xpath=//input[@name='Password']", "xpath:attributes"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7b7c619f-3653-44dd-a1a7-da00350e743c",
+      "comment": "",
+      "command": "type",
+      "target": "name=Password",
+      "targets": [
+        ["name=Password", "name"],
+        ["css=.ng-untouched", "css:finder"],
+        ["xpath=//input[@name='Password']", "xpath:attributes"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "Adnan12$"
+    }, {
+      "id": "a3ca3704-16b3-45f2-b99a-e43fce010629",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[4]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Register')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "dbe3b770-4f84-497e-8aca-f9aa11c30630",
+      "comment": "",
+      "command": "click",
+      "target": "css=h3",
+      "targets": [
+        ["css=h3", "css:finder"],
+        ["xpath=//h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'Invalid Email or Password')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1e80da96-d938-4e43-ac51-f7d4c56ec12c",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=h3",
+      "targets": [
+        ["css=h3", "css:finder"],
+        ["xpath=//h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'Invalid Email or Password')]", "xpath:innerText"]
+      ],
+      "value": "Invalid Email or Password"
+    }]
+  }, {
+    "id": "b75015b3-a0d4-431b-b2b8-5e93e55be49d",
+    "name": "passUpper(+)Invalid",
+    "commands": [{
+      "id": "760344b5-27f0-4e72-a9f1-c4184ce4296d",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:4200/registration",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c5899885-5dea-4df5-a4c3-3ad7fe96cc8c",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x652",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d32b7e1c-cc76-451f-ad6a-a9cf0d9e1e1c",
+      "comment": "",
+      "command": "click",
+      "target": "name=name",
+      "targets": [
+        ["name=name", "name"],
+        ["css=.form-group:nth-child(1) > .form-control", "css:finder"],
+        ["xpath=//input[@name='name']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "66821179-d01b-44fa-93bd-e03bc63ab2e1",
+      "comment": "",
+      "command": "type",
+      "target": "name=name",
+      "targets": [
+        ["name=name", "name"],
+        ["css=.ng-valid", "css:finder"],
+        ["xpath=//input[@name='name']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Adnan"
+    }, {
+      "id": "9c705d09-2d93-4473-9df2-055d5cc79cfc",
+      "comment": "",
+      "command": "click",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=.form-group:nth-child(2) > .form-control", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "686e7506-1b14-4c27-a933-c0af6c8e7f74",
+      "comment": "",
+      "command": "type",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=.form-group:nth-child(2) > .form-control", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "adnan@gmail.com"
+    }, {
+      "id": "b76aa408-c4f9-4bb3-9a82-c09cd3b82824",
+      "comment": "",
+      "command": "click",
+      "target": "name=Password",
+      "targets": [
+        ["name=Password", "name"],
+        ["css=.ng-untouched", "css:finder"],
+        ["xpath=//input[@name='Password']", "xpath:attributes"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e20102c2-01c2-4017-941e-171c0cbee4c2",
+      "comment": "",
+      "command": "type",
+      "target": "name=Password",
+      "targets": [
+        ["name=Password", "name"],
+        ["css=.ng-untouched", "css:finder"],
+        ["xpath=//input[@name='Password']", "xpath:attributes"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "Adnan123$$#@$"
+    }, {
+      "id": "5c650526-8dee-409f-9cd5-096dbf8d4d7c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[4]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Register')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5b999db9-659e-4cf4-ac73-00fa43fd6c83",
+      "comment": "",
+      "command": "click",
+      "target": "css=h3",
+      "targets": [
+        ["css=h3", "css:finder"],
+        ["xpath=//h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'Invalid Email or Password')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f50c5463-b0cf-4a8a-a7d1-4759f2ac56f3",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=h3",
+      "targets": [
+        ["css=h3", "css:finder"],
+        ["xpath=//h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'Invalid Email or Password')]", "xpath:innerText"]
+      ],
+      "value": "Invalid Email or Password"
+    }]
+  }, {
+    "id": "4df8c7a9-9d08-4414-8665-aa2e7adf4e3c",
+    "name": "passUpper(-)Valid",
+    "commands": [{
+      "id": "abaf5da7-2ed4-4e9b-8b56-8503d8a7d110",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:4200/registration",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ad089828-e689-4303-8220-6dd2445577e6",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x652",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5e666ac4-5a70-4d73-b29d-0f034c46f05f",
+      "comment": "",
+      "command": "click",
+      "target": "name=name",
+      "targets": [
+        ["name=name", "name"],
+        ["css=.form-group:nth-child(1) > .form-control", "css:finder"],
+        ["xpath=//input[@name='name']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d6225078-981f-454b-8d8e-b89db687c038",
+      "comment": "",
+      "command": "type",
+      "target": "name=name",
+      "targets": [
+        ["name=name", "name"],
+        ["css=.ng-valid", "css:finder"],
+        ["xpath=//input[@name='name']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Adnan"
+    }, {
+      "id": "7eabf024-839a-4606-82c2-ac657e09401e",
+      "comment": "",
+      "command": "click",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=.form-group:nth-child(2) > .form-control", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5a928966-2c12-475c-a356-f72963aa9880",
+      "comment": "",
+      "command": "type",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=.form-group:nth-child(2) > .form-control", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "adnan@gmail.com"
+    }, {
+      "id": "f80f0878-4849-4838-9bb6-459adc42b805",
+      "comment": "",
+      "command": "click",
+      "target": "name=Password",
+      "targets": [
+        ["name=Password", "name"],
+        ["css=.ng-untouched", "css:finder"],
+        ["xpath=//input[@name='Password']", "xpath:attributes"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3f2daf63-56fc-4bff-95b1-08ae679b165a",
+      "comment": "",
+      "command": "type",
+      "target": "name=Password",
+      "targets": [
+        ["name=Password", "name"],
+        ["css=.ng-untouched", "css:finder"],
+        ["xpath=//input[@name='Password']", "xpath:attributes"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "Adnan12345@"
+    }, {
+      "id": "fb345a8e-3a51-4ba3-8f6b-69970ae3571c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[4]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Register')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "9a6b54d7-44b4-4600-86f0-f104eadc1bd4",
+    "name": "passLowerValid",
+    "commands": [{
+      "id": "bd9d4be3-de6c-4aff-a526-97650a550a07",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:4200/registration",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0319a530-3569-481c-8b82-7168199245bb",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x652",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3153ead8-c74d-42c4-8252-aa6fc651f77a",
+      "comment": "",
+      "command": "click",
+      "target": "name=name",
+      "targets": [
+        ["name=name", "name"],
+        ["css=.form-group:nth-child(1) > .form-control", "css:finder"],
+        ["xpath=//input[@name='name']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "18b3858d-508d-4e15-9de3-8a99fe03c5e3",
+      "comment": "",
+      "command": "type",
+      "target": "name=name",
+      "targets": [
+        ["name=name", "name"],
+        ["css=.ng-valid", "css:finder"],
+        ["xpath=//input[@name='name']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Adnan"
+    }, {
+      "id": "dc6daecf-cded-489d-879e-7bf930fe3a9f",
+      "comment": "",
+      "command": "click",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=.form-group:nth-child(2) > .form-control", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "699b0dcd-d8bb-4188-8cf3-b51ae178a368",
+      "comment": "",
+      "command": "type",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=.form-group:nth-child(2) > .form-control", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "adnan@gmail.com"
+    }, {
+      "id": "82e65d46-1d89-49ad-b6be-fdf261de6466",
+      "comment": "",
+      "command": "click",
+      "target": "name=Password",
+      "targets": [
+        ["name=Password", "name"],
+        ["css=.ng-untouched", "css:finder"],
+        ["xpath=//input[@name='Password']", "xpath:attributes"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "db1c9106-5620-456f-a1c3-ed88faf5e75d",
+      "comment": "",
+      "command": "type",
+      "target": "name=Password",
+      "targets": [
+        ["name=Password", "name"],
+        ["css=.ng-untouched", "css:finder"],
+        ["xpath=//input[@name='Password']", "xpath:attributes"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "Adna1@"
+    }, {
+      "id": "26b3849b-a5d4-45b5-9cc6-e7ead0f51d2e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[4]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Register')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "0db0b3da-5275-4404-9e63-1fb3f1f0d218",
+    "name": "passUpperValid",
+    "commands": [{
+      "id": "a2d879bb-593b-4403-8ac6-39dec8e74c4a",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:4200/registration",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a5c3d09a-12a1-490c-a1a7-9591d6e4f19a",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x652",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f03e8933-39bb-4cac-8166-8f92feefb4da",
+      "comment": "",
+      "command": "click",
+      "target": "name=name",
+      "targets": [
+        ["name=name", "name"],
+        ["css=.form-group:nth-child(1) > .form-control", "css:finder"],
+        ["xpath=//input[@name='name']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b16c585c-7736-43a8-a550-b5972f18d38d",
+      "comment": "",
+      "command": "type",
+      "target": "name=name",
+      "targets": [
+        ["name=name", "name"],
+        ["css=.ng-valid", "css:finder"],
+        ["xpath=//input[@name='name']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Adnan"
+    }, {
+      "id": "c4ab370b-b68a-4ce6-a328-c6c2b4f0a3d5",
+      "comment": "",
+      "command": "click",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=.form-group:nth-child(2) > .form-control", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f55685dd-c079-4d85-8a9a-554ea8d2e595",
+      "comment": "",
+      "command": "type",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=.form-group:nth-child(2) > .form-control", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "adnan@gmail.com"
+    }, {
+      "id": "be08d05f-1795-452f-80ae-b404d0d0090a",
+      "comment": "",
+      "command": "click",
+      "target": "name=Password",
+      "targets": [
+        ["name=Password", "name"],
+        ["css=.ng-untouched", "css:finder"],
+        ["xpath=//input[@name='Password']", "xpath:attributes"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "309ede52-394c-466c-ab80-cb237cdebb45",
+      "comment": "",
+      "command": "type",
+      "target": "name=Password",
+      "targets": [
+        ["name=Password", "name"],
+        ["css=.ng-untouched", "css:finder"],
+        ["xpath=//input[@name='Password']", "xpath:attributes"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "Adnan12345$#"
+    }, {
+      "id": "2c8e98a9-9724-4695-94aa-5a925bb3fea7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[4]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Register')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "c9002648-ed7a-46cf-9046-e02de81ae8e8",
+    "name": "passUppercaseValid",
+    "commands": [{
+      "id": "0380e067-04bd-4016-8bf3-5efacd609bb3",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:4200/registration",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "02fdafc0-52f3-44b0-9a21-d0e72043a530",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x652",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b9db3c02-8612-44f4-9564-52dd362da65c",
+      "comment": "",
+      "command": "click",
+      "target": "name=name",
+      "targets": [
+        ["name=name", "name"],
+        ["css=.form-group:nth-child(1) > .form-control", "css:finder"],
+        ["xpath=//input[@name='name']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "172cc2ca-af8a-4e30-879a-1da00e86f78e",
+      "comment": "",
+      "command": "type",
+      "target": "name=name",
+      "targets": [
+        ["name=name", "name"],
+        ["css=.ng-valid", "css:finder"],
+        ["xpath=//input[@name='name']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Galib"
+    }, {
+      "id": "f5238b14-2e6b-461d-a17f-74213b922a34",
+      "comment": "",
+      "command": "click",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=.form-group:nth-child(2) > .form-control", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "aa3d3974-6253-4012-8a9c-cfaf89d6da9e",
+      "comment": "",
+      "command": "type",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=.form-group:nth-child(2) > .form-control", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "galib@gmail.com"
+    }, {
+      "id": "2714cf33-a632-403c-b096-c9b1fa73ad84",
+      "comment": "",
+      "command": "click",
+      "target": "name=Password",
+      "targets": [
+        ["name=Password", "name"],
+        ["css=.ng-untouched", "css:finder"],
+        ["xpath=//input[@name='Password']", "xpath:attributes"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "db5100ab-e5ce-42e3-99c7-dff718ea535a",
+      "comment": "",
+      "command": "type",
+      "target": "name=Password",
+      "targets": [
+        ["name=Password", "name"],
+        ["css=.ng-untouched", "css:finder"],
+        ["xpath=//input[@name='Password']", "xpath:attributes"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "Adnan123@"
+    }, {
+      "id": "81cc8e31-a4c5-4adf-903b-a918b0f10951",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[4]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Register')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "eb5a1b7f-cef0-4b0f-8a44-f60c2aaf500e",
+    "name": "passUppercaseInvalid",
+    "commands": [{
+      "id": "0bd9a46b-5f89-4e80-bae2-641e91c750e2",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:4200/registration",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "157c1969-0e18-465c-a5b3-7f014cb1bf94",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x652",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8ca85083-4b69-4b9d-8b2d-ef2ce16d2668",
+      "comment": "",
+      "command": "click",
+      "target": "name=name",
+      "targets": [
+        ["name=name", "name"],
+        ["css=.form-group:nth-child(1) > .form-control", "css:finder"],
+        ["xpath=//input[@name='name']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "99a7f189-c594-431f-9942-a91e43eb351a",
+      "comment": "",
+      "command": "type",
+      "target": "name=name",
+      "targets": [
+        ["name=name", "name"],
+        ["css=.ng-valid", "css:finder"],
+        ["xpath=//input[@name='name']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Galib"
+    }, {
+      "id": "a9ec6eef-1228-4591-b1e2-883c81ed360d",
+      "comment": "",
+      "command": "click",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=.form-group:nth-child(2) > .form-control", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fb33d851-ab7d-4d07-a2fe-9616d3981707",
+      "comment": "",
+      "command": "type",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=.form-group:nth-child(2) > .form-control", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "galib@gmail.com"
+    }, {
+      "id": "4d7a4403-6e62-47ac-9545-8de8dcf20486",
+      "comment": "",
+      "command": "click",
+      "target": "name=Password",
+      "targets": [
+        ["name=Password", "name"],
+        ["css=.ng-untouched", "css:finder"],
+        ["xpath=//input[@name='Password']", "xpath:attributes"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f95584f0-ec45-49a4-b432-ac2214219ccb",
+      "comment": "",
+      "command": "type",
+      "target": "name=Password",
+      "targets": [
+        ["name=Password", "name"],
+        ["css=.ng-untouched", "css:finder"],
+        ["xpath=//input[@name='Password']", "xpath:attributes"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "adnan123$"
+    }, {
+      "id": "46a5f716-222a-466b-a92b-c0d6680110c9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[4]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Register')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "856ef7f6-dda8-426f-9cd6-346bc42db556",
+      "comment": "",
+      "command": "click",
+      "target": "css=.row",
+      "targets": [
+        ["css=.row", "css:finder"],
+        ["xpath=//div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "eda954ea-1edc-4556-9de1-d85d50dc3459",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=h3",
+      "targets": [
+        ["css=h3", "css:finder"],
+        ["xpath=//h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'Invalid Email or Password')]", "xpath:innerText"]
+      ],
+      "value": "Invalid Email or Password"
+    }]
+  }, {
+    "id": "c7a04729-e08b-43c0-890a-28d897da0359",
+    "name": "passNumValid",
+    "commands": [{
+      "id": "b3fb1dc9-a5fb-46f3-8354-e6f1ed9a6b37",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:4200/registration",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c8601a6a-a8d3-4cdf-a931-8eb6ce095788",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x652",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "072dc3d3-b72b-4288-8004-c9ea8128d608",
+      "comment": "",
+      "command": "click",
+      "target": "name=name",
+      "targets": [
+        ["name=name", "name"],
+        ["css=.form-group:nth-child(1) > .form-control", "css:finder"],
+        ["xpath=//input[@name='name']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bf0448bf-37f1-4473-9d7b-5ff9f7d80459",
+      "comment": "",
+      "command": "type",
+      "target": "name=name",
+      "targets": [
+        ["name=name", "name"],
+        ["css=.ng-valid", "css:finder"],
+        ["xpath=//input[@name='name']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Galib Rahman"
+    }, {
+      "id": "b2fdcc28-49a7-40df-8dd1-52a3fd6c7729",
+      "comment": "",
+      "command": "click",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=.form-group:nth-child(2) > .form-control", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4a448378-36cd-4173-8ee5-bda0cd5a6797",
+      "comment": "",
+      "command": "type",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=.form-group:nth-child(2) > .form-control", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "galib@gmail.com"
+    }, {
+      "id": "9a8aa5ba-f9af-4270-a092-dcd764f0ef2f",
+      "comment": "",
+      "command": "click",
+      "target": "name=Password",
+      "targets": [
+        ["name=Password", "name"],
+        ["css=.ng-untouched", "css:finder"],
+        ["xpath=//input[@name='Password']", "xpath:attributes"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "39b57700-fdff-408f-89b3-9ff73a7192f5",
+      "comment": "",
+      "command": "type",
+      "target": "name=Password",
+      "targets": [
+        ["name=Password", "name"],
+        ["css=.ng-untouched", "css:finder"],
+        ["xpath=//input[@name='Password']", "xpath:attributes"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "Adnan123@"
+    }, {
+      "id": "699ebbf4-b869-4aa4-ad24-88680328e4fb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[4]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Register')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "fe57cbc3-bfd0-496d-9ff3-364b9799c00d",
+    "name": "passNumInvalid",
+    "commands": [{
+      "id": "0ccba1b5-5b49-4ccb-ad91-13c8b14eb026",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:4200/registration",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a2254b98-b6bc-456a-adc2-fdab8204f92b",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x652",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b2884d4d-d35b-40e0-a068-c2a18d456f07",
+      "comment": "",
+      "command": "click",
+      "target": "name=name",
+      "targets": [
+        ["name=name", "name"],
+        ["css=.form-group:nth-child(1) > .form-control", "css:finder"],
+        ["xpath=//input[@name='name']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2190e6b7-5aa3-46c4-8479-7e64db3ddf65",
+      "comment": "",
+      "command": "type",
+      "target": "name=name",
+      "targets": [
+        ["name=name", "name"],
+        ["css=.ng-valid", "css:finder"],
+        ["xpath=//input[@name='name']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Adnan"
+    }, {
+      "id": "c8ca19ae-5e33-4a22-bcce-8eacce20e37a",
+      "comment": "",
+      "command": "click",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=.form-group:nth-child(2) > .form-control", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5f9f7cc5-9a06-4048-9cc7-d55c75552845",
+      "comment": "",
+      "command": "type",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=.form-group:nth-child(2) > .form-control", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "bsse1131@gmail.com"
+    }, {
+      "id": "81526c4f-b228-4835-9a29-34c62f7b311c",
+      "comment": "",
+      "command": "click",
+      "target": "name=Password",
+      "targets": [
+        ["name=Password", "name"],
+        ["css=.ng-untouched", "css:finder"],
+        ["xpath=//input[@name='Password']", "xpath:attributes"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1f5d8b28-f032-4293-aba0-cbec9f0589f9",
+      "comment": "",
+      "command": "type",
+      "target": "name=Password",
+      "targets": [
+        ["name=Password", "name"],
+        ["css=.ng-untouched", "css:finder"],
+        ["xpath=//input[@name='Password']", "xpath:attributes"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "Adnan@#$"
+    }, {
+      "id": "cb054aaf-319f-4a4c-87f1-9fbc6d0e0d78",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[4]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Register')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a7445f8d-25f6-454a-b832-b1010deae43d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.row",
+      "targets": [
+        ["css=.row", "css:finder"],
+        ["xpath=//div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2e965184-7c62-455a-ac71-64bbb414c356",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=h3",
+      "targets": [
+        ["css=h3", "css:finder"],
+        ["xpath=//h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'Invalid Email or Password')]", "xpath:innerText"]
+      ],
+      "value": "Invalid Email or Password"
+    }]
+  }, {
+    "id": "186f09f7-a418-4a5e-8679-526f9f9e1d76",
+    "name": "passSpecialCharValid",
+    "commands": [{
+      "id": "031ef4b8-6372-45ce-8f68-3f610402bf7d",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:4200/registration",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "927daef8-acb5-42cb-8de1-e582158d0bd8",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x652",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "81b4b05c-6717-4f90-ac02-70543f554c39",
+      "comment": "",
+      "command": "click",
+      "target": "name=name",
+      "targets": [
+        ["name=name", "name"],
+        ["css=.form-group:nth-child(1) > .form-control", "css:finder"],
+        ["xpath=//input[@name='name']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9dd17c95-27cb-44dc-b0f4-a80d127d14a9",
+      "comment": "",
+      "command": "type",
+      "target": "name=name",
+      "targets": [
+        ["name=name", "name"],
+        ["css=.ng-valid", "css:finder"],
+        ["xpath=//input[@name='name']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Ahmed Adnan"
+    }, {
+      "id": "f149522b-f24b-469d-8eac-d11549ff8486",
+      "comment": "",
+      "command": "click",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=.form-group:nth-child(2) > .form-control", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "33c335b4-0e1a-41d7-926a-72bd9de70f2b",
+      "comment": "",
+      "command": "type",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=.form-group:nth-child(2) > .form-control", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "bsse1131@gmail.com"
+    }, {
+      "id": "5be4e41b-3074-42d9-86d3-59eb687bec80",
+      "comment": "",
+      "command": "click",
+      "target": "name=Password",
+      "targets": [
+        ["name=Password", "name"],
+        ["css=.ng-untouched", "css:finder"],
+        ["xpath=//input[@name='Password']", "xpath:attributes"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6fe738ad-9f60-4588-89fd-38acf0fa0937",
+      "comment": "",
+      "command": "type",
+      "target": "name=Password",
+      "targets": [
+        ["name=Password", "name"],
+        ["css=.ng-untouched", "css:finder"],
+        ["xpath=//input[@name='Password']", "xpath:attributes"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "Adnan123@#"
+    }, {
+      "id": "d8e5c49c-065a-4033-aecc-c38f4fe86cf8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[4]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Register')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "184c768b-87f0-4027-ad9a-43cd158d7fe7",
+    "name": "passSpecialCharInvalid",
+    "commands": [{
+      "id": "3154695d-556b-4b00-8da8-102bf30b412f",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:4200/registration",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c03eb2ea-52fb-46e2-ba00-6601273f310e",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x652",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "12bb4459-ba55-46b0-b826-9b503a017c13",
+      "comment": "",
+      "command": "click",
+      "target": "name=name",
+      "targets": [
+        ["name=name", "name"],
+        ["css=.form-group:nth-child(1) > .form-control", "css:finder"],
+        ["xpath=//input[@name='name']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a12fd3b5-baa0-4f3e-aa9e-172ddb2ae203",
+      "comment": "",
+      "command": "type",
+      "target": "name=name",
+      "targets": [
+        ["name=name", "name"],
+        ["css=.ng-valid", "css:finder"],
+        ["xpath=//input[@name='name']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Adnan"
+    }, {
+      "id": "4457d525-465d-4a8b-8492-762f3af128da",
+      "comment": "",
+      "command": "click",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=.form-group:nth-child(2) > .form-control", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "693ccb41-0406-4523-8973-256f627335d4",
+      "comment": "",
+      "command": "type",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=.form-group:nth-child(2) > .form-control", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "adnan@gmail.com"
+    }, {
+      "id": "5b2cdeb9-771a-447d-abb1-0d83ff5f28ff",
+      "comment": "",
+      "command": "click",
+      "target": "name=Password",
+      "targets": [
+        ["name=Password", "name"],
+        ["css=.ng-untouched", "css:finder"],
+        ["xpath=//input[@name='Password']", "xpath:attributes"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4824a967-d93b-4e3d-acb4-adc6450580d1",
+      "comment": "",
+      "command": "type",
+      "target": "name=Password",
+      "targets": [
+        ["name=Password", "name"],
+        ["css=.ng-untouched", "css:finder"],
+        ["xpath=//input[@name='Password']", "xpath:attributes"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "Adnan12345"
+    }, {
+      "id": "e13b7e00-fc48-42f5-9087-a0f6e503217d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[4]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Register')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7707dfe3-8f6f-424e-97ba-a78312241f96",
+      "comment": "",
+      "command": "click",
+      "target": "css=h3",
+      "targets": [
+        ["css=h3", "css:finder"],
+        ["xpath=//h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'Invalid Email or Password')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d43b0c25-969b-421e-a15f-c275e136141d",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=h3",
+      "targets": [
+        ["css=h3", "css:finder"],
+        ["xpath=//h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'Invalid Email or Password')]", "xpath:innerText"]
+      ],
+      "value": "Invalid Email or Password"
+    }]
+  }, {
+    "id": "f0ff3a5e-5006-4e5d-96b1-6f915c803cd1",
+    "name": "loginValid",
+    "commands": [{
+      "id": "46921b10-7f25-42bb-b884-fb43436288e1",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:4200/login",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e883c2c1-9efc-4153-bde8-b2f73ab2b581",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x652",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "760d1bf0-8200-41b9-b5d4-c299c8d6de2f",
+      "comment": "",
+      "command": "click",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=.form-group:nth-child(1) > .form-control", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a444fb5f-54a6-4b97-bc2c-a7af53df439b",
+      "comment": "",
+      "command": "type",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=.ng-valid", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "bsse1131@gmail.com"
+    }, {
+      "id": "eaeb40a9-e2e4-4065-a26c-a7795af790c5",
+      "comment": "",
+      "command": "click",
+      "target": "name=Password",
+      "targets": [
+        ["name=Password", "name"],
+        ["css=.ng-untouched", "css:finder"],
+        ["xpath=//input[@name='Password']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fa53eb22-d340-4bb2-a111-b1b7b761d9c7",
+      "comment": "",
+      "command": "type",
+      "target": "name=Password",
+      "targets": [
+        ["name=Password", "name"],
+        ["css=.ng-untouched", "css:finder"],
+        ["xpath=//input[@name='Password']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "Adnan123$"
+    }, {
+      "id": "513f3c42-b68b-44db-9bfa-138ea3b85a07",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[3]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Login')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e1b27e35-f67a-495f-93a8-f75e070e4b90",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[3]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Login')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "fe94408e-c072-4f53-afc0-481ae931c8e1",
+    "name": "loginEmailInvalid",
+    "commands": [{
+      "id": "71efe995-3e11-4fc0-8489-6ef4638cecc1",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:4200/login",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "223ef116-796b-46ce-8dcf-12ecb4e46fce",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x652",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b9d83eae-697c-4558-9bb5-1859e739a2c2",
+      "comment": "",
+      "command": "click",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=.form-group:nth-child(1) > .form-control", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7883c9f5-6f79-48cb-b93c-de5a7df3ca51",
+      "comment": "",
+      "command": "type",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=.ng-valid", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "bsse1131@gmail.com"
+    }, {
+      "id": "3b016257-63ea-4eea-beac-397bf2b246a5",
+      "comment": "",
+      "command": "click",
+      "target": "name=Password",
+      "targets": [
+        ["name=Password", "name"],
+        ["css=.ng-untouched", "css:finder"],
+        ["xpath=//input[@name='Password']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8ec38701-64a1-416f-8b71-5452e3e8cace",
+      "comment": "",
+      "command": "type",
+      "target": "name=Password",
+      "targets": [
+        ["name=Password", "name"],
+        ["css=.ng-untouched", "css:finder"],
+        ["xpath=//input[@name='Password']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "andnan123$"
+    }, {
+      "id": "cccd8e10-0d20-492b-9418-5fb4b1afd35e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-primary",
+      "targets": [
+        ["css=.btn-primary", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[3]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Login')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3b14bf52-ec0f-484c-94eb-dac3e1683365",
+      "comment": "",
+      "command": "click",
+      "target": "css=h3",
+      "targets": [
+        ["css=h3", "css:finder"],
+        ["xpath=//h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'Login unsuccessful')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "74749447-886c-49f8-a487-02e393a5615d",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=h3",
+      "targets": [
+        ["css=h3", "css:finder"],
+        ["xpath=//h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'Login unsuccessful')]", "xpath:innerText"]
+      ],
+      "value": "Login unsuccessful"
+    }]
+  }, {
+    "id": "eaa53738-b327-4b1e-b9aa-08944115283a",
+    "name": "loginPassInvalid",
+    "commands": [{
+      "id": "f369f1ee-e50e-476a-9c38-97debee963ff",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:4200/login",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d364386f-ce55-443e-9071-7171211cf992",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x652",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "98f98960-4903-4577-baa4-5925ead18ce3",
+      "comment": "",
+      "command": "click",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=.form-group:nth-child(1) > .form-control", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "32fcd968-7cb4-463a-9e4f-c0f7817c203e",
+      "comment": "",
+      "command": "type",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=.ng-valid", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "bsse11311@gmail.come"
+    }, {
+      "id": "5a952f94-3328-41bc-8698-9c4752c1d4a8",
+      "comment": "",
+      "command": "click",
+      "target": "name=Password",
+      "targets": [
+        ["name=Password", "name"],
+        ["css=.ng-untouched", "css:finder"],
+        ["xpath=//input[@name='Password']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3f894134-5a9d-4501-9acc-c21ea2715956",
+      "comment": "",
+      "command": "type",
+      "target": "name=Password",
+      "targets": [
+        ["name=Password", "name"],
+        ["css=.ng-untouched", "css:finder"],
+        ["xpath=//input[@name='Password']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "Adnan123$"
+    }, {
+      "id": "a60c2a5c-db3a-4bd1-9d07-c76afd5ef224",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-primary",
+      "targets": [
+        ["css=.btn-primary", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[3]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Login')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "abf146b5-1b54-4fe4-9851-977aaa34de44",
+      "comment": "",
+      "command": "click",
+      "target": "css=h3",
+      "targets": [
+        ["css=h3", "css:finder"],
+        ["xpath=//h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'Login unsuccessful')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4e19c02b-4057-44e6-81dd-cdb27471d250",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=h3",
+      "targets": [
+        ["css=h3", "css:finder"],
+        ["xpath=//h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'Login unsuccessful')]", "xpath:innerText"]
+      ],
+      "value": "Login unsuccessful"
+    }, {
+      "id": "0a007971-b360-4f56-ba75-ec449229e50c",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "2acd9000-149b-4cbc-8f61-bb12c6b02bf7",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["96c3e476-2921-4986-a429-61398b143b23"]
+  }, {
+    "id": "5d5eca56-bce3-4edb-9b2e-f407ad947398",
+    "name": "AuthAssignment",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["2b259c82-d35d-44e3-acd0-ac022a82913e", "71de1bd9-7388-4581-8d22-f165c8f0584d", "469d5914-b7c0-4621-9d52-28da23fd1bf9", "9a6b54d7-44b4-4600-86f0-f104eadc1bd4", "5913d4a7-5360-459e-89ad-af31b10edfff", "73516825-dd84-4164-a092-1ba5c2739529", "0db0b3da-5275-4404-9e63-1fb3f1f0d218", "b75015b3-a0d4-431b-b2b8-5e93e55be49d", "4df8c7a9-9d08-4414-8665-aa2e7adf4e3c", "c9002648-ed7a-46cf-9046-e02de81ae8e8", "eb5a1b7f-cef0-4b0f-8a44-f60c2aaf500e", "c7a04729-e08b-43c0-890a-28d897da0359", "fe57cbc3-bfd0-496d-9ff3-364b9799c00d", "186f09f7-a418-4a5e-8679-526f9f9e1d76", "184c768b-87f0-4027-ad9a-43cd158d7fe7", "f0ff3a5e-5006-4e5d-96b1-6f915c803cd1", "fe94408e-c072-4f53-afc0-481ae931c8e1", "eaa53738-b327-4b1e-b9aa-08944115283a"]
+  }],
+  "urls": ["http://localhost:4200/", "http://localhost:4200/registration"],
+  "plugins": []
+}
